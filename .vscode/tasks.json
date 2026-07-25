@@ -12,6 +12,8 @@
                 "-O0",
                 "-Wall",
                 "-Wextra",
+                "-I",
+                "${workspaceFolder}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
